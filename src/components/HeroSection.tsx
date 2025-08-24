@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-cream.jpg";
 
 const HeroSection = () => {
   return (
@@ -7,7 +6,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-cream-bg/95 to-background/95 z-10" />
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
+        style={{ backgroundImage: `url(/lovable-uploads/9df41b9c-fa14-4aa5-8d3c-3093d004f4c7.png)` }}
       />
       
       <div className="relative z-20 text-center max-w-4xl mx-auto px-6">
