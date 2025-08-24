@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-cream-bg/95 to-background/95 z-10" />
+      <div className="absolute inset-0 bg-gradient-to-r from-cream-bg/40 to-background/30 z-10" />
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(/lovable-uploads/9df41b9c-fa14-4aa5-8d3c-3093d004f4c7.png)` }}
